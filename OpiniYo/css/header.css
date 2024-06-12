@@ -1,0 +1,75 @@
+.header{
+    background-color: var(--header-bg-color);
+}
+
+/*navbar*/
+.navbar-brand{
+    color: var(--color-primary) !important;
+    font-size: 1.5rem;
+}
+
+.navbar-brand span{
+    color: var(--color-blue-light) !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .nav-link {
+    color: var(--color-primary) !important;
+    font-size: 1.15rem !important;
+    margin-right: 1.35rem;
+}
+
+/*buscador*/
+.btn-search{
+    color: var(--color-blue-light);
+    border-color: var(--color-blue-light);
+}
+
+.btn-search:hover{
+    background-color: var(--color-blue-light);
+    
+
+}
+
+.navbar-toggler{
+    color: transparent;
+    border: transparent;
+}
+
+.underline-one {
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.underline-one:hover {
+    color: var(--color-blue-light) !important;
+}
+.underline-one:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.underline-one:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    background-color: var(--color-blue-light) !important;
+    transition: width 0.5s;
+}
+
+
+
+
+
+

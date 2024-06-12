@@ -1,0 +1,131 @@
+.opinion{
+    background-color: var(--color-border);
+    padding-bottom: 160px;
+    height: 580px;
+}
+
+.btn-an-opinion{
+    background-color: #22BF9D;
+    color: white;
+    border-radius: 15px;
+    
+}
+
+.opinion-text1{
+    font-size: 14px;
+}
+
+.opinion-text2{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-an-catalogo{
+    background-color: var(--color-blue-light);
+    border-radius: 5px;
+    color: white;
+}
+
+.breadcrumb-pasos {
+    font-size: 12px;
+}
+
+@media(min-width: 768px){
+    .card{
+        width: 75% !important;
+    }
+}
+
+
+.divImgEnc div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Обрезает изображение, если оно больше контейнера */
+    display: flex;
+    align-items: center;
+}
+
+.divImgEnc div img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/*.reviews__stars svg {
+    fill: orange;
+    opacity: .4;
+}
+.reviews__stars[data-star="1"] svg:nth-child(-n+1), .reviews__stars[data-star="2"] svg:nth-child(-n+2), .reviews__stars[data-star="3"] svg:nth-child(-n+3), .reviews__stars[data-star="4"] svg:nth-child(-n+4), .reviews__stars[data-star="5"] svg:nth-child(-n+5) {
+    opacity: 1;
+}*/
+
+/*stars*/
+.rating{
+    font-size: 40px !important;
+    line-height: 0.75 !important;
+}
+
+.rating-body{
+    position: relative;
+}
+.rating-body::before{
+    display: block;
+    content: "★★★★★";
+}
+
+.rating-items{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.rating-active{
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.rating-active::before{
+    content: "★★★★★";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    color: #FF8C00;
+}
+
+.rating-item{
+    flex: 0 0 20%;
+    height: 100%;
+    opacity: 0;
+}
+.rating-value{
+    font-size: 50% !important;
+    line-height: 1 !important;
+    padding: 0 0 0 10px !important;
+}
+
+
+/*enlace para añadir opinion*/
+.enlaceCrearOpinion {
+    background-color: #22BF9D !important;
+    color: white;
+    font-size: 16px;
+}
+.enlaceCrearOpinion a {
+    text-decoration: none !important;
+
+}
+
+.leerOpinion-comentario p {
+    font-size: 18px !important;
+    line-height: 2rem;
+    text-align: justify;
+}

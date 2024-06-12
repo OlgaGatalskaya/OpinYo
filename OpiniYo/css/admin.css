@@ -1,0 +1,74 @@
+    a{
+        text-decoration: none !important;
+        font-size: 20px;
+    }
+    .x{
+        overflow: visible !important;
+        padding-right: 0 !important;
+    }
+
+    .body{
+        background-color: #F7FAFF !important;
+
+    }
+
+    .container-admin{
+        color: #0a0a0a;
+        padding: 100px 0;
+
+    }
+    .header{
+        background-color: var(--header-bg-color);
+    }
+
+    /*navbar*/
+    .navbar-brand{
+        color: var(--color-primary) !important;
+        font-size: 1.5rem;
+    }
+
+    .navbar-brand span{
+        color: var(--color-blue-light) !important;
+    }
+
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .nav-link {
+        color: var(--color-primary) !important;
+        font-size: 1.15rem !important;
+        margin-right: 1.35rem;
+    }
+
+    .mi-modal{
+        display: none;
+    }
+
+
+    /*admin*/
+    .admin-body {
+        height: 100vh;
+        background-image: url("../img/admin-bg.png");
+
+    }
+
+    .admin-container {
+        width: 380px;
+        height: 330px;
+    }
+
+    .form-admin{
+        width: 100%;
+    }
+
+    .imgProductoDiv{
+        width: 100%;
+        height: 100%;
+        overflow: hidden; /* Обрезает изображение, если оно больше контейнера */
+        display: flex;
+        align-items: center;
+    }
+
+    .imgProductoDiv img {
+        max-width: 50%;
+        max-height: 50%;
+        object-fit: contain;
+    }
+

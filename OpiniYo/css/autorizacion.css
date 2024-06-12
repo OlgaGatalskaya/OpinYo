@@ -1,0 +1,45 @@
+.section-autorizacion {
+    background-color: var(--color-border);
+}
+
+.section-startPage {
+    background-color: var(--color-border);
+}
+
+.section-espacioPersonal {
+    background-color: var(--color-border);
+}
+
+/*.form-links{
+    color: var(--color-text) !important;
+}
+
+.form-links.active{
+    background-color: white !important;
+    color: var(--color-blue-light) !important;
+    border-bottom: col;
+}*/
+
+.tab-title{
+    color: black !important;
+}
+
+.tab-title.active{
+    color: var(--color-blue-light) !important;
+}
+
+.btn-success {
+    background-color: #22BF9D !important; ;
+}
+
+.startPage-intro {
+    color: black;
+}
+.startPage-intro h2{
+    color: var(--color-blue-light);
+}
+.perfil {
+    color: black !important;
+    height: 600px !important;
+}
+
